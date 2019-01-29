@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "airbnb-base",
+    "react-app"
+  ],
+  "rules": {
+    "implicit-arrow-linebreak": "off",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "object-curly-newline": ["error", { "consistent": true }],
+    "import/no-extraneous-dependencies": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
